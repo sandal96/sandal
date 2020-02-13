@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>....</title>
+     
+ <style type="text/css">
+   @media screen and (max-width: 1024px;){
+       .block{
+           display: block;
+           margin: 50px 0px 50px 0px;
+       }
+       
+       }
+       
+       .container{
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+       }
+        .dd {
+          width: 960px;
+         margin: auto;
+         display: flex;
+        }
+       
+       .name{
+           display: block;
+           align-items: center;
+           justify-content: flex-start;
+           color:hsla(217, 90%, 46%, 0.829);
+       }
+       .content{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+       }
+       .content2{
+           color: #6e6f71;
+           margin-right: 50px;
+           border: 2px solid white;
+       }
+       .content2:hover{
+           border-top: 2px solid #42a1cf;
+       }
+       a{
+           text-decoration: none;
+           cursor: pointer;
+        }
+       .cont{
+        background: hsla(217, 90%, 46%, 0.829);
+        border: 1px solid hsla(217, 90%, 46%, 0.829);
+        border-radius: 15px;
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 12px 5px 12px;
+        color: #343537;
+        margin-right: 15px;
+       }
+       .select{
+           border: 1px solid #575757;
+           border-radius: 15px;
+           padding: 2px 10px 2px 10px;
+       }
+       .block2{
+          width: 100%;
+          margin: auto;
+          display: flex;
+          margin-top: 100px;
+          align-items: center;
+      }
+      .gg{
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .juul{
+          width: 60%;
+      }
+      .span{
+          color: darkorange;
+      }
+      .juul2{
+          width: 40%;
+          margin-bottom: 15px;
+      }
+      .ape{
+          display: flex;
+      }
+      .hul{
+    background: hsla(217, 90%, 46%, 0.829);
+    border: 1px solid hsla(217, 90%, 46%, 0.829);
+    border-radius: 15px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 4px 20px 4px 20px;
+    color: black;
+    margin-right: 25px;
+      }
+    .hul2{
+    border: 2px solid darkorange;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px 10px 4px 10px;
+    color: #343537;
+    }
+   .scrol{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 80px;
+       margin-right: 100px;
+   }
+   .scrol2{
+       border-radius: 30%;
+       padding: 5px 10px 5px 10px;
+       border: 1px solid black;
+   }
+   .block3{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+       background: #f4f9ff9d;
+       margin-top: 110px;
+      
+   }
+   .kol{
+       display: flex;
+       align-self: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+   .hegg{
+       display: flex;
+       justify-content: space-around;
+       border: 5px solid white;
+       align-items: center;
+       border-radius: 20px;
+       background: white;
+       margin-bottom: 15px;
+   
+   }
+   .text{
+       display: inline-flex;
+       flex-direction: column;
+   }
+       .hegg:hover{
+           border: 5px solid  #42a1cf;
+       }
+   
+   .img{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 30px;
+       padding: 0px 10px 0px 10px;
+   }
+   .block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .kill{
+       text-align: center;
+   }
+   .span2{
+       color: #537ecf;
+   }
+   
+   .bell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    justify-content: space-around;
+   }
+   .bell2{
+    border: 1px solid #f3f8fe;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .number{
+       color: #6c99ce;
+       font-size: 35px;
+       padding: 10px 7px 10px 10px;
+       margin-right: 25px;
+   }
+   .text1{
+       
+   }
+   .al{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       background: #f4f9ff;
+       height: 100px;
+       width: 100px;
+       margin-left: 15px;
+    }
+    .al2{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       background: #f4f9ff;
+       height: 100px;
+       width: 100px;
+       margin-right: 15px;
+    }
+    .gell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    justify-content: space-around;
+   }
+   .gell2{
+    border: 1px solid #f3f8fe;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .dil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    justify-content: space-around;
+    margin-top: 40px;
+   }
+   .dil2{
+    border: 1px solid #f3f8fe;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .trap{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 15px;
+       background: #f4f9ff9d;
+       flex-direction: column;
+       width: 100%;
+       height: 400px;
+   }
+   .trap2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       background: #f4f9ff9d;
+
+   }
+   .cont_trap2{
+       align-self: center;
+       justify-content: center;
+
+   }
+   .contp{
+    background: white;
+    border: 1px solid #e7e8ecb2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .chekbox{
+
+   }
+      .input{
+          padding: 10px;
+      }
+      .price{
+        display: flex;
+        text-align: center;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+    .take{
+    display: flex;
+    background: hsla(217, 90%, 46%, 0.829);
+    border: 1px solid hsla(217, 90%, 46%, 0.829);
+    border-radius: 15px;
+    text-align: center;
+    height:  30px;
+    width: 413.28px;
+    justify-content: center;
+    margin-top: 20px;
+      color: black;
+      align-items: center;
+      }
+      .pis{
+          margin-bottom: 5px;
+      }
+      .gen{
+          display: block;
+      }
+      .jol{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+    
+      }
+      .boy{
+          display: flex;
+          
+          justify-content: center;
+          
+      }      
+      
+      .boy_block{
+          display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-bottom: 600px;
+           
+      }
+      .boy_input{
+        border: 1px solid #e7e8ecb2;
+        border-radius: 15px;
+      }
+     .dp{
+        width: 960px;
+         margin: auto;
+         display: flex;
+         
+
+     }
+      .container2{
+        width: 100%;
+           display: flex;
+           justify-content: space-between;
+           background:#f4f9ff9d;
+      }
+      .pk{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+      }
+      .textinput{
+       border-radius: 15px;
+       padding: 7px ;
+       margin-top: 10px;
+      width: 250px;
+       border: 3px solid #f2f2f2;
+        color: #a9a9a9;
+      }
+      .area{
+        border-radius: 15px;
+       padding: 7px ;
+       margin-top: 10px;
+       width: 250px;
+       height: 200px;
+        resize: none;
+        border: 3px solid #f2f2f2;
+        color: #a9a9a9;
+      }
+      </style>
+      
+
+
+</head>
+<body style="font-family:Arial">
+<div class="block">
+    <header class="dd">
+    <div class="container">
+        <div class="name">in your personality</div>
+        <div class="content">
+            <a class="content2" href="">Home</a>
+            <a class="content2" href="">FAQ</a>
+            <a class="content2" href="">Blog</a>
+            <a class="content2" href="">Conset Us</a>
+            <a class="content2" href="">About Us</a>	
+            <a class="cont"href="">Take the Test</a>
+         <select name="select" class="select">
+             <option value="en">en</option>
+             <option value="ua">ua</option>
+             <option value="ru">ru</option>
+         </select>
+        </div>
+</header>
+     <div class="block2">
+         <div class="gg">
+         <h2 class="juul"> DO YOU WANT TO <span class="span">GAIN MORE INSIGHT</span> IN YOUR PERSONALITY?</h2>
+        
+<div class="juul2">
+    <p>Our test will give you cloor areas of itonest</p>
+    <p>and proffessions which count you bazi</p>
+        </div>
+           <div class="ape">
+                 <a class="hul" href="">Take the Test</a>
+                 <a class="hul2" href="">See a Sample Resport</a>
+                </div>
+        
+        </div>
+        <div class="goal">
+            <img src="Hw180120.jpg" alt="img">
+        </div>
+    </div>
+    <div class="scrol">
+        <p>Scroll Down</p>
+        <a href="" class="scrol2">↓</a>
+    </div>
+<div class="block3">
+           <div class="kol">
+               <h1>Goals and <span class="span">Benefits</span></h1>
+               <span>Extensive report,step by step, fully anonymous</span>
+            </div>
+            <div class="hegg">
+               <div class="img">
+                   <img src="computer.png">
+               </div>
+                <div class="text">
+                    <h3>Over 25 Report Pages</h3>
+                    <p>
+                        An extensive report which elaborates
+                        <br>
+                        on your personality, competences, interests and
+                        <br>
+                        qualities with corresponding professions and
+                        <br>
+                        educational levels.
+                    </p>
+                </div>
+            </div>
+            <div class="hegg">
+                <div class="img">
+                 <img src="Fully Anonymous.png">
+                </div>
+                <div class="text">
+                    <h3>Fully Anonymous</h3>
+                    <p>
+                        We respect your privacy.
+                        <br>
+                        Get PDF directly on your email - means no one else
+                        <br>
+                        can see results, except of you.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="hegg">
+                <div class="img">
+                      <img src="Riasec Method.png">
+                </div>
+                <div class="text">
+                    <h3>RIASEC Method</h3>
+                    <p>
+                        Our test creates personalized 3 letter code, based on
+                        <br>
+                        RIASEC personality types. This method helps to
+                        <br>
+                        define competences more accurate.
+                      
+                    </p>
+                </div>
+            </div>
+            <div class="hegg">
+                <div class="img">
+                      <img src="Time Matters.png">
+                </div>
+                <div class="text">
+                    <h3>Time Matters</h3>
+                    <p>
+                        We appreciate your time.
+                        <br>
+                        That`swhy our test will take you only 15 minutes or
+                        <br>
+                        less. Save your precious time!
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+
+          <div class="block4">
+              <div class="kill">
+                  <h1>
+                      How Does <span class="span2">It Work</span>
+                  </h1>
+                  <p>Just 3 easy steps to get result</p>
+                </div>
+             <div class="bell">
+                 <div class="bell2">
+                     <div class="number">1</div>
+                     <div class="text1">
+                         <h3>Click "Take the Test" button</h3>
+                         <p>About that you get on the test page</p>
+                     </div>
+                    </div>
+                    <div class="al">
+                        <img src="Test.jpg">
+                    </div>
+                    </div>
+                      
+                    <div class="gell">
+                        <div class="al2">
+                            <img src="planshet.jpg">
+                        </div>
+                        <div class="gell2">
+                            
+                            <div class="text1">
+                                <h3>Start making your test</h3>
+                                <p>Take your and enjoy test</p>
+                            </div>
+                            <div class="number">2</div>
+                        </div>   
+                            
+                    
+                        </div>  
+                        <div class="dil">
+                            <div class="dil2">
+                                <div class="number">3</div>
+                                <div class="text1">
+                                    <h3>Get report on your email</h3>
+                                    <p>Test download it in one click</p>
+                                </div>  
+                                </div>
+                                <div class="al">
+                                    <img src="letter.jpg">
+                                </div>
+                               </div>
+          
+            
+                              <div class="trap">
+                                  <div class="trap2">
+                                    <div class="cont_trap2">
+                                        <h3 class="span">All Aptitude Test Package</h3>
+                                        <p>Get more now, for feed</p>
+                                    </div>
+                                    </div>
+                                     <div class="contp">
+                                       <div class="chekbox">
+                                           <div class="input">
+                                               <input type="checkbox" name="input">
+                                               <span>Lorem ipsum dolor sit amet</span>
+                                           </div>
+                                           <div class="input">
+                                            <input type="checkbox" name="input">
+                                            <span>Lorem ipsum dolor sit amet</span>
+                                           </div>
+                                           <div class="input">
+                                            <input type="checkbox" name="input">
+                                            <span>Lorem ipsum dolor sit amet</span>
+                                           </div>
+                                           <div class="input">
+                                            <input type="checkbox" name="input">
+                                            <span>Lorem ipsum dolor sit amet</span>
+                                           </div>
+                                       </div>
+                                     <div class="price">
+                                         <div class="number">$39.95</div>
+                                          <span class="span2">Best Value</span>
+                                        </div>
+                                         
+                                        
+                                    </div>
+                                    <a class="take" href=""><span>Take the Test</span></a>
+                                </div>
+                                   <div class="gen">
+                                       <div class="jol">
+                                           <h2>Have Any <span class="span">Questions?</span></h2>
+                                           <p>Please,feel free to contact us!</p>
+                                       </div>
+                                   </div>
+                                       <div class="boy">
+                                          <img src="Group 6.png">
+                                          <div class="pk">
+                                            <input class="textinput" placeholder="Enter your Name"></input>
+                                            <input class="textinput" placeholder="Enter your Name"></input>
+                                            <textarea class="area" placeholder="Enter your Name"></textarea>
+                                          </div>
+                                       </div>
+                                       
+                                   
+                                    </div>
+                                    <header class="dp">
+                                        <div class="container2">
+                                            <div class="name">in your personality</div>
+                                            <div class="content">
+                                                <a class="content2" href="">Home</a>
+                                                <a class="content2" href="">FAQ</a>
+                                                <a class="content2" href="">Blog</a>
+                                                <a class="content2" href="">Conset Us</a>
+                                                <a class="content2" href="">About Us</a>	
+                                                <a class="cont"href="">Take the Test</a>
+                                             <select name="select" class="select">
+                                                 <option value="en">en</option>
+                                                 <option value="ua">ua</option>
+                                                 <option value="ru">ru</option>
+                                             </select>
+                                            </div>
+                                    </header>
+                            </div>
+
+
+
+
+
+</body>
+</html>
